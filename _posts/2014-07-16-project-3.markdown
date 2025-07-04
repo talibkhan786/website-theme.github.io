@@ -1,11 +1,11 @@
 ---
 layout: default
+title: Networking
+subtitle: Networking Services
 modal-id: 3
 date: 2014-07-16
-img: circus.png
+img: Networking-Services-thumbnail.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+category: Computer Network Services, Network Structural Cabling, Rack Dressing
+description: We provide end-to-end network solutions using trusted technologies like Cisco, Ubiquiti, and MikroTik. Our services cover structured cabling, rack dressing, and complete LAN/WAN deployments, tailored for offices, campuses, warehouses, and retail setups. With 24/7 managed network monitoring, we ensure your infrastructure stays secure, high-performing, and scalable as your business grows.
 ---

@@ -1,11 +1,11 @@
 ---
 layout: default
+title: Software Management 
+subtitle: Software Management Services
 modal-id: 5
 date: 2014-07-14
-img: safe.png
+img: Software-thumbnail.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+category: Software, ERP Solutions & Annual Maintenance Services
+description: We offer comprehensive ERP consulting and implementation services across platforms like Tally ERP, Odoo, SAP, and Zoho—tailored for industries such as retail, manufacturing, distribution, and professional services. From process mapping to deployment and training, we ensure smooth digital transformation. To keep your systems running at peak performance, we also provide Computer AMC (Annual Maintenance Contracts) covering regular checkups, preventive maintenance, and priority support for your IT assets.
 ---

@@ -1,11 +1,11 @@
 ---
 layout: default
+title: CCTV Cameras
+subtitle: CCTV Service
 modal-id: 4
 date: 2014-07-15
-img: game.png
+img: CCTV-thumbnail.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+category: CCTV Camera Installation & Support
+description: We provide professional CCTV camera installation with full-service support, including maintenance, remote monitoring, and mobile access. Our solutions include IP cameras, dome, bullet, and PTZ cameras, customized for both indoor and outdoor security. Ideal for offices, warehouses, retail stores, and homes, we use trusted brands to ensure reliable 24/7 surveillance and peace of mind.
 ---

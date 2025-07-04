@@ -1,11 +1,11 @@
 ---
 layout: default
+title: IT Services
+subtitle: Managed IT Services
 modal-id: 1
 date: 2014-07-18
-img: cabin.png
+img: IT-manager-thumbnail.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+category: Server Management , VMware Environment, IT support and Solutions, Desktop and Laptop Services
+description: We specialize in server management, VMware virtualization, end-to-end IT support, and reliable desktop and laptop services. From infrastructure setup to ongoing maintenance, our solutions are designed to keep your systems secure, efficient, and running without disruption.
 ---

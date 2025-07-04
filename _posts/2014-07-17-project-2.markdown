@@ -1,11 +1,11 @@
 ---
 layout: default
+title: IT Infrastructure Management
+subtitle: IT Infrastructure Management Services
 modal-id: 2
 date: 2014-07-17
-img: cake.png
+img: IT-infrastructure-thumbnail.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+category: Cloud Service, Remote Support Services, User Support
+description: We offer end-to-end IT infrastructure management, leveraging platforms like AWS, Azure, and Google Cloud to deliver scalable and secure cloud solutions. Our remote support services ensure quick issue resolution, while our user support team provides prompt assistance to keep your workforce productive—wherever they are.
 ---
