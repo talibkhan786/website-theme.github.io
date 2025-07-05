@@ -186,6 +186,7 @@ section h2 {
     font-size: 3em;
 }
 
+/* about section */
 section.success {
     color: #fff;
     background: #{{ site.color.primary }};
@@ -293,6 +294,10 @@ section.success {
     background: 0 0;
     transition: all .3s ease-in-out;
 }
+
+.btn-space {
+    margin-left: 16px; /* or whatever spacing you prefer */
+  }
 
 .btn-outline:hover,
 .btn-outline:focus,

@@ -2,8 +2,8 @@
 title: ANS Network Services
 email: talibhasankhan786@gmail.com
 url: https://github.com/jeromelachaud/freelancer-theme
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
+description: "ANS Network Services provides expert IT solutions including Managed IT Services, Cloud Support, Desktop & Laptop Services, ERP Consulting, Rack Dressing, and more. We are your personalized tech team delivering scalable, secure, and reliable services for businesses of all sizes."
+keywords: "Managed IT Services, Cloud Services, Desktop & Laptop Services, ERP Consulting, Rack Dressing, Network Solutions, Remote Support, Server Management, System Integrator, IT Infrastructure"
 skills: "We Are a Experts on IT Solutions Your Personalized Tech Team"
 meta_author: Talib Khan
 
@@ -54,8 +54,6 @@ footer:
 address:
   - line: Charkhop , Kandivali West
   - line: Mumbai - 400067
-  - line: +91 9920485510
-  - line: info@ansnetworkservices.com
 
 # Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
