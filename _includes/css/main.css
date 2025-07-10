@@ -81,15 +81,28 @@ hr.star-primary:after {
 }
 
 header {
+    position: relative;
+    overflow: hidden;
     text-align: center;
-    color: #ffff;
+    color: #fff;
     text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
-    /* background: #{{ site.color.primary }}; */
-    background-image: url('{{ site.baseurl }}/img/2149399288.jpg');
-    /* background-attachment: fixed; */
-    background-size: cover;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    z-index: 0;
+    background-image: url('{{ site.baseurl }}/img/4948935_94170.jpg');
+    background-size: 100% auto;
     background-position: center;
     background-repeat: no-repeat;
+    filter: blur(1.5px); /* Adjust blur radius as needed */
+}
+
+header > .container {
+    position: relative;
+    z-index: 1;
 }
 
 header .container {
@@ -112,7 +125,8 @@ header .intro-text .name {
 
 header .intro-text .skills {
     font-size: 1.25em;
-    font-weight: 300;
+    font-weight: bold;
+    color: #fff;
 }
 
 @media(min-width:768px) {
@@ -219,7 +233,7 @@ section.success {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba({{ site.color.primary-rgb }},.9);
+    background: rgba(121, 200, 207, 0.9);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -386,6 +400,15 @@ footer .footer-below {
     background-color: #{{ site.color.secondary-dark }};
 }
 
+footer a {
+  color: #80a0a8;
+  text-decoration: underline;
+}
+footer a:hover,
+footer a:focus {
+  color: #e65100;
+}
+
 .btn-social {
     display: inline-block;
     width: 50px;
@@ -452,8 +475,8 @@ footer .footer-below {
     position: absolute;
     top: 25px;
     right: 25px;
-    width: 75px;
-    height: 75px;
+    width: 50px;
+    height: 50px;
     background-color: transparent;
     cursor: pointer;
 }
@@ -465,7 +488,7 @@ footer .footer-below {
 .portfolio-modal .close-modal .lr {
     z-index: 1051;
     width: 1px;
-    height: 75px;
+    height: 50px;
     margin-left: 35px;
     background-color: #{{ site.color.secondary }};
     -webkit-transform: rotate(45deg);
@@ -476,7 +499,7 @@ footer .footer-below {
 .portfolio-modal .close-modal .lr .rl {
     z-index: 1052;
     width: 1px;
-    height: 75px;
+    height: 50px;
     background-color: #{{ site.color.secondary }};
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
@@ -492,4 +515,47 @@ footer .footer-below {
 .modal.fade.in {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
+}
+
+/* --- Custom Navbar Logo and Title Styles --- */
+.navbar-logo-title {
+  display: flex;
+  align-items: center; /* change to baseline if needed */
+  height: 100%;
+}
+.navbar-logo {
+  height: 60px;
+  width: auto;
+  margin-right: 15px;
+  display: block;
+}
+.navbar-brand {
+  padding: 0;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 60px; /* match logo height for vertical alignment */
+  display: flex;
+  align-items: center;
+}
+
+.header-overlay-container {
+  position: relative;
+  z-index: 1;
+}
+
+.header-overlay-container::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+  z-index: -1;
+  border-radius: 0.5em; /* Optional: soften corners */
+}
+
+.intro-text {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
 }
