@@ -7,8 +7,8 @@ RUN apt-get update -qq && apt-get install -y build-essential nodejs
 # Set working directory
 WORKDIR /usr/src/app
 
-# Copy Gemfile and Gemfile.lock
-COPY Gemfile* ./
+# Copy Gemfile, Gemfile.lock, and gemspec
+COPY Gemfile* *.gemspec ./
 
 # Install gems
 RUN gem install bundler && bundle install
