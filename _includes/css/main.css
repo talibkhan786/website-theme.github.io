@@ -508,7 +508,23 @@ footer a:focus {
 }
 
 .navbar-nav>.active>a {
-    background-color: #{{ site.color.secondary-dark }} !important;
+    background-color: white !important;
+}
+
+.navbar{
+    background-color: white !important;
+    border: 1px solid #80a0a8;
+}
+
+.navbar-brand,
+.navbar-nav > li > a {
+    color: black !important;
+}
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+    color: black !important;
+    background-color: rgba(0, 0, 0, 0.1) !important;
 }
 
 /* Fix modal mouse wheel issues */
@@ -582,6 +598,11 @@ footer a:focus {
   header {
     margin-top: 90px; /* Slightly more space for mobile if needed */
   }
+.navbar-toggler,
+.navbar-toggle {
+    background-color: #000000 !important; /* Change to your desired color */
+    border-color: #637070 !important;     /* Optional: match border */
+}
 }
 @media (max-width: 767px) {
     .footer-col {
